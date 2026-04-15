@@ -1,0 +1,77 @@
+# Binaries
+cli-proxy-api
+*.exe
+
+# Configuration
+config.yaml
+.env
+
+# Generated content
+bin/*
+logs/*
+conv/*
+temp/*
+refs/*
+backups/*
+test-results/*
+
+# Local build/runtime artifacts
+CLIProxyAPI
+CLIProxyAPI.bak*
+CLIProxyAPI.new
+CLIProxyAPI.run
+CLIProxyAPI.static
+CLIProxyAPI.fix
+CLIProxyAPI.fix.transport
+server
+nohup.out
+.tmp_*
+CLI Proxy API Management Center.html
+management.live.html
+code_center_standalone.js
+chromium-shot.log
+run.log
+design_refs/
+stitch_code_center_claude.zip
+
+# Storage backends
+pgstore/*
+gitstore/*
+objectstore/*
+
+# Static assets
+static/*
+
+# Authentication data
+auths/*
+!auths/.gitkeep
+
+# Documentation
+docs/*
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Tooling metadata
+.vscode/*
+.toolchains/
+.cpapi-state/
+.codex
+.codex/*
+.claude/*
+.gemini/*
+.serena/*
+.agent/*
+.agents/*
+.agents/*
+.opencode/*
+.bmad/*
+_bmad/*
+_bmad-output/*
+
+# Local script config
+scripts/*.env
+
+# macOS
+.DS_Store
+._*
