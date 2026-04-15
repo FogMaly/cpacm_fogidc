@@ -2,36 +2,18 @@
 
 English | [中文](README_CN.md)
 
-A proxy server for CLI and agent workloads with a stable public API surface and protocol compatibility layers.
+A CPAMC-based proxy server for CLI and agent workloads, focused on channel integration, load balancing, and external call aggregation.
 
 It provides a stable public API under `/cpamc/*`, compatibility routes under `/api/provider/{provider}/...`, and a separate management surface under `/v0/management/*`.
 
 It now also supports OpenAI Codex (GPT models) and Claude Code via OAuth, with local and multi-account access for compatible CLI tools and SDKs.
 
-## Sponsor
+This repository is based on the CPAMC foundation and extends it with:
 
-[![z.ai](https://assets.router-for.me/english-4.7.png)](https://z.ai/subscribe?ic=8JVLJQFSKB)
-
-This project is sponsored by Z.ai, supporting us with their GLM CODING PLAN.
-
-GLM CODING PLAN is a subscription service designed for AI coding, starting at just $3/month. It provides access to their flagship GLM-4.7 model across 10+ popular AI coding tools (Claude Code, Cline, Roo Code, etc.), offering developers top-tier, fast, and stable coding experiences.
-
-Get 10% OFF GLM CODING PLAN：https://z.ai/subscribe?ic=8JVLJQFSKB
-
----
-
-<table>
-<tbody>
-<tr>
-<td width="180"><a href="https://www.packyapi.com/register?aff=cliproxyapi"><img src="./assets/packycode.png" alt="PackyCode" width="150"></a></td>
-<td>Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more. PackyCode provides special discounts for our software users: register using <a href="https://www.packyapi.com/register?aff=cliproxyapi">this link</a> and enter the "cliproxyapi" promo code during recharge to get 10% off.</td>
-</tr>
-<tr>
-<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=TJNAIF"><img src="./assets/aicodemirror.png" alt="AICodeMirror" width="150"></a></td>
-<td>Thanks to AICodeMirror for sponsoring this project! AICodeMirror provides official high-stability relay services for Claude Code / Codex / Gemini CLI, with enterprise-grade concurrency, fast invoicing, and 24/7 dedicated technical support. Claude Code / Codex / Gemini official channels at 38% / 2% / 9% of original price, with extra discounts on top-ups! AICodeMirror offers special benefits for CLIProxyAPI users: register via <a href="https://www.aicodemirror.com/register?invitecode=TJNAIF">this link</a> to enjoy 20% off your first top-up, and enterprise customers can get up to 25% off!</td>
-</tr>
-</tbody>
-</table>
+- Channel integration for third-party and custom upstreams
+- Multi-account and multi-provider load balancing
+- Aggregated external invocation and unified proxy routing
+- Stable public APIs plus protocol compatibility layers for CLI tools
 
 ## API Surface
 
